@@ -87,7 +87,7 @@ https://browserleaks.com/
 
 ---
 
-## Uso prático (OSINT)
+## Uso prático 
 
 Esse perfil ajuda a:
 - Reduzir exposição durante navegação
