@@ -1,18 +1,21 @@
 ## Objetivo
-Este repositório foi pensando para reduzir a superfície de exposição em navegação web via browsers. Criei um arquivo em javascript básico para ser aplicado no Firefox usando as configurações mais utilizadas para mitigar boa parte do fingerprinting geral da navegação. 
+
+Este repositório foi pensando para reduzir a superfície de exposição em navegação web via browsers. Criei um arquivo em javascript básico para ser aplicado no Firefox usando as configurações mais utilizadas para mitigar boa parte do fingerprinting geral da navegação.
+
 ---
 
-## O que você vai precisar ? 
+## O que você vai precisar ?
 
 - Firefox
 - VM ou host local
-- Conhecimento prévio de ``about:config``
+- Conhecimento prévio de `about:config`
 
-Todas as configurações foram ajustadas e validadas com base nos testes do BrowserLeaks.
+Todas as configurações foram ajustadas e validadas com base nos testes do BrowserLeaks.  
 https://browserleaks.com/
+
 ---
 
-# O que vaza em sua navegação ?
+## O que vaza em sua navegação ?
 
 - Endereço IP
 - Javascript
@@ -24,15 +27,18 @@ https://browserleaks.com/
 - Features Detection
 - Content Filters
 - TLS Client
+
 ---
 
 ### Trade-offs:
+
 - Alguns sites podem quebrar
 - Pode aumentar o número de CAPTCHAs
 - Nem tudo pode ser ocultado
 
-Referência:
+Referência:  
 https://browserleaks.com/
+
 ---
 
 ## TL;DR (Aplicação rápida)
@@ -42,6 +48,7 @@ https://browserleaks.com/
 3. Abra a pasta do perfil ativo
 4. Cole o `user.js` dentro da pasta
 5. Reinicie o Firefox
+
 ---
 
 ## Add-ons recomendados
@@ -51,4 +58,3 @@ https://browserleaks.com/
 - Canvas Blocker
 - Firefox Multi-Account Containers
 - NoScript
-
